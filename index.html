@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TEST</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="title" id="title">QGme</h1>
+      <div class="nav-links-container">
+        <a class="navlink" href="index.html">Αρχική</a>
+        <a class="navlink" href="about.html">Σχετικά</a>
+        <a class="navlink" href="contact.html">Επικοινωνία</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="score-board">Score: <span id="score">0</span></div>
+      <div class="score-board">
+        Ερώτηση: <span id="question-number">1</span>
+      </div>
+      <div class="timer" id="timer"></div>
+      <div id="question" class="question"></div>
+      <div id="message" class="message"></div>
+      <div id="wiki" class="wiki"></div>
+      <div class="buttons">
+        <button
+          id="btn-true"
+          class="btn btn-true"
+          hidden="true"
+          onclick="answerButton(true)"
+        >
+          ΣΩΣΤΟ
+        </button>
+        <button
+          id="btn-false"
+          class="btn btn-false"
+          hidden="true"
+          onclick="answerButton(false)"
+        >
+          ΛΑΘΟΣ
+        </button>
+      </div>
+
+      <div class="btn-next-container">
+        <button
+          class="btn btn-next"
+          id="btn-next"
+          hidden="true"
+          onclick="nextQuestion()"
+        >
+          Επόμενη Ερώτηση
+        </button>
+        <button
+          class="btn btn-restart"
+          id="btn-restart"
+          hidden="true"
+          onclick="restartGame()"
+        >
+          Restart Game
+        </button>
+        <button class="btn btn-start" id="btn-start" onclick="startgame()">
+          Ξεκίνα Τώρα
+        </button>
+      </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

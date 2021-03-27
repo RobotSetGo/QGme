@@ -1,0 +1,110 @@
+.container{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.question{
+    margin-top: 30px;
+    font-size: 50px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.message{
+    text-align: center;
+    font-size: 25px;
+    margin-top:10px;
+}
+
+.buttons{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn{
+    font-size: 30px;
+    padding: 10px;
+    width: 250px;
+    border: 0px;
+}
+
+.btn-true{
+    background-color: #9cde84;
+}
+
+.btn-false{
+    background-color: #de9084;
+}
+
+.btn-true:hover{
+    background-color: #5b804e;
+    color:#ffffff;
+}
+
+.btn-false:hover{
+    background-color: #794e49;
+    color:#ffffff;
+}
+
+.title{
+    display: inline;
+    margin-right: 50px;
+}
+
+.nav-links-container{
+    display: inline;
+}
+
+.navbar{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 30px;
+    color:#794e49;
+}
+
+.btn-next{
+    width: 505px;
+    background-color: bisque;
+}
+
+.btn-restart{
+    width: 505px;
+    background-color: darkcyan;
+    color: antiquewhite;
+}
+
+.btn-start{
+    width: 505px;
+    background-color: slateblue;
+    color: aliceblue;
+}
+
+.btn-next-container{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.score-board{
+    font-size: 20px;
+}
+
+.timer{
+    font-size: 20px;
+}
+
+.wiki{
+    text-align: center;
+    font-size: 25px;
+    margin-top:10px;
+    color:darkgoldenrod;
+    font-family: 'Courier New', Courier, monospace;
+}
