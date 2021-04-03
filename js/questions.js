@@ -26,6 +26,11 @@ var questions = [
         "question": "O Hulk είναι πράσινος ",
         "answer": true
     },
+    {
+        "question": "ο robin φοραει μαυρη στολη ",
+        "answer": false,
+        "wiki": "φοραει κοκκινη στολη"
+    },
 
     
 ]  
