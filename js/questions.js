@@ -13,4 +13,19 @@ var questions = [
         "answer": false,
         "wiki": "To pikatchu πετάει ρεύμα!"
     },
-];
+    {
+        "question": "O Batman πετάει",
+        "answer": false,
+        "wiki": "Ο Batman ΔΕΝ πετάει "
+    },
+    {
+        "question": "O Luke Skywalker είναι Jedi",
+        "answer": true
+    },
+    {
+        "question": "O Hulk είναι πράσινος ",
+        "answer": true
+    },
+
+    
+]  
