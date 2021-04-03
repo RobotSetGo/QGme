@@ -26,6 +26,8 @@ var questions = [
         "question": "O Hulk είναι πράσινος ",
         "answer": true
     },
-
-    
+    {
+        "question": "O Flash είναι πολύ γρήγορος ",
+        "answer": true,
+    },
 ]  
