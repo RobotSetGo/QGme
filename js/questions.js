@@ -23,9 +23,12 @@ var questions = [
         "answer": true
     },
     {
-        "question": "O Hulk είναι πράσινος ",
+        "question": "O Hulk είναι πράσινος",
         "answer": true
     },
-
-    
-]  
+    {
+        "question": "Ο Doctor Who έχει 3 καρδιές",
+        "answer": false,
+        "wiki": "Είναι Timelord. Έχει 2 καρδιές!"
+    }
+];
